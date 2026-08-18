@@ -22,4 +22,14 @@ h2 {
   text-align: right;
 }
 
+.grade-list {
+    max-width: 28rem;
+}
+
+.grade-list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* The above is not my own code. */
