@@ -23,13 +23,19 @@ h2 {
 }
 
 .grade-list {
-    max-width: 28rem;
+  width: 22rem;
+  max-width: 100%;
 }
 
-.grade-list li {
-    display: flex;
-    justify-content: space-between;
+.grade-list li span:first-child {
+  display: inline-block;
+  width: 17rem;
 }
 
+.grade-list li span:last-child {
+  display: inline-block;
+  width: 2rem;
+  text-align: left;
+}
 
 /* The above is not my own code. */
